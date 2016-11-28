@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "OpenCVUtil.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic) IBOutlet UIImageView *myImgView;
+@property (strong, nonatomic) IBOutlet UIImageView *detectImgView;
+
 
 @end
 
@@ -17,6 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *img = [UIImage imageNamed:@"888.JPG"];
+    _myImgView.image = img;
+    _detectImgView.image = [OpenCVUtil faceDetectForImage:img];
+    
+}
+- (IBAction)clickedNextBtn:(id)sender {
 }
 
 

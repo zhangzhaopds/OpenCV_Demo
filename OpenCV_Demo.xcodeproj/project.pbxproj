@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82D23AE4EB62C48A7FF57952 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 913A2A544FBD97507C8DB637 /* libPods.a */; };
+		E26035551DEBC236000F69C7 /* 888.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E26035541DEBC236000F69C7 /* 888.JPG */; };
 		E28E076B1DE7CBB700088369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E076A1DE7CBB700088369 /* main.m */; };
 		E28E076E1DE7CBB700088369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E076D1DE7CBB700088369 /* AppDelegate.m */; };
 		E28E07711DE7CBB700088369 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E07701DE7CBB700088369 /* ViewController.m */; };
@@ -15,6 +17,11 @@
 		E28E07791DE7CBB700088369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28E07771DE7CBB700088369 /* LaunchScreen.storyboard */; };
 		E28E07841DE7CBB700088369 /* OpenCV_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E07831DE7CBB700088369 /* OpenCV_DemoTests.m */; };
 		E28E078F1DE7CBB700088369 /* OpenCV_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E078E1DE7CBB700088369 /* OpenCV_DemoUITests.m */; };
+		E28E07A41DE7D2C200088369 /* OpenCVUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = E28E07A31DE7D2C200088369 /* OpenCVUtil.mm */; };
+		E28E07A61DE7DC6300088369 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = E28E07A51DE7DC6300088369 /* haarcascade_frontalface_alt2.xml */; };
+		E28E07A81DE7DD1E00088369 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = E28E07A71DE7DD1E00088369 /* haarcascade_frontalface_alt.xml */; };
+		E28E07AA1DE7DE9900088369 /* IMG_0016.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E28E07A91DE7DE9900088369 /* IMG_0016.JPG */; };
+		E28E07AD1DE7E31600088369 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28E07AC1DE7E31600088369 /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3B3B94E9F01497A13D3FB6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		913A2A544FBD97507C8DB637 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87F3287C2C1DCF616907A4D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E26035541DEBC236000F69C7 /* 888.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 888.JPG; sourceTree = "<group>"; };
 		E28E07661DE7CBB700088369 /* OpenCV_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28E076A1DE7CBB700088369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E28E076C1DE7CBB700088369 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,13 @@
 		E28E078A1DE7CBB700088369 /* OpenCV_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28E078E1DE7CBB700088369 /* OpenCV_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_DemoUITests.m; sourceTree = "<group>"; };
 		E28E07901DE7CBB700088369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28E07A21DE7D2C200088369 /* OpenCVUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVUtil.h; sourceTree = "<group>"; };
+		E28E07A31DE7D2C200088369 /* OpenCVUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVUtil.mm; sourceTree = "<group>"; };
+		E28E07A51DE7DC6300088369 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		E28E07A71DE7DD1E00088369 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		E28E07A91DE7DE9900088369 /* IMG_0016.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0016.JPG; sourceTree = "<group>"; };
+		E28E07AB1DE7E31600088369 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		E28E07AC1DE7E31600088369 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D23AE4EB62C48A7FF57952 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CECFDCEE47ECAB5B4B9DEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913A2A544FBD97507C8DB637 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F5665EE794731CD2F3F06AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B3B94E9F01497A13D3FB6 /* Pods.debug.xcconfig */,
+				A87F3287C2C1DCF616907A4D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E28E075D1DE7CBB600088369 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				E28E07821DE7CBB700088369 /* OpenCV_DemoTests */,
 				E28E078D1DE7CBB700088369 /* OpenCV_DemoUITests */,
 				E28E07671DE7CBB700088369 /* Products */,
+				3F5665EE794731CD2F3F06AD /* Pods */,
+				1CECFDCEE47ECAB5B4B9DEBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +143,14 @@
 				E28E076D1DE7CBB700088369 /* AppDelegate.m */,
 				E28E076F1DE7CBB700088369 /* ViewController.h */,
 				E28E07701DE7CBB700088369 /* ViewController.m */,
+				E26035541DEBC236000F69C7 /* 888.JPG */,
+				E28E07AB1DE7E31600088369 /* VideoViewController.h */,
+				E28E07AC1DE7E31600088369 /* VideoViewController.m */,
+				E28E07A91DE7DE9900088369 /* IMG_0016.JPG */,
+				E28E07A21DE7D2C200088369 /* OpenCVUtil.h */,
+				E28E07A31DE7D2C200088369 /* OpenCVUtil.mm */,
+				E28E07A51DE7DC6300088369 /* haarcascade_frontalface_alt2.xml */,
+				E28E07A71DE7DD1E00088369 /* haarcascade_frontalface_alt.xml */,
 				E28E07721DE7CBB700088369 /* Main.storyboard */,
 				E28E07751DE7CBB700088369 /* Assets.xcassets */,
 				E28E07771DE7CBB700088369 /* LaunchScreen.storyboard */,
@@ -147,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E28E07931DE7CBB700088369 /* Build configuration list for PBXNativeTarget "OpenCV_Demo" */;
 			buildPhases = (
+				B1253B53B0561CBEE53FAA7C /* Check Pods Manifest.lock */,
 				E28E07621DE7CBB600088369 /* Sources */,
 				E28E07631DE7CBB600088369 /* Frameworks */,
 				E28E07641DE7CBB600088369 /* Resources */,
+				6EDC55BD7F2EA4D51CCF079C /* Embed Pods Frameworks */,
+				41B94DFB7EDA07D263171BAA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26035551DEBC236000F69C7 /* 888.JPG in Resources */,
+				E28E07AA1DE7DE9900088369 /* IMG_0016.JPG in Resources */,
+				E28E07A81DE7DD1E00088369 /* haarcascade_frontalface_alt.xml in Resources */,
 				E28E07791DE7CBB700088369 /* LaunchScreen.storyboard in Resources */,
 				E28E07761DE7CBB700088369 /* Assets.xcassets in Resources */,
+				E28E07A61DE7DC6300088369 /* haarcascade_frontalface_alt2.xml in Resources */,
 				E28E07741DE7CBB700088369 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,12 +324,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41B94DFB7EDA07D263171BAA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDC55BD7F2EA4D51CCF079C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1253B53B0561CBEE53FAA7C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E28E07621DE7CBB600088369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E28E07AD1DE7E31600088369 /* VideoViewController.m in Sources */,
 				E28E07711DE7CBB700088369 /* ViewController.m in Sources */,
+				E28E07A41DE7D2C200088369 /* OpenCVUtil.mm in Sources */,
 				E28E076E1DE7CBB700088369 /* AppDelegate.m in Sources */,
 				E28E076B1DE7CBB700088369 /* main.m in Sources */,
 			);
@@ -425,9 +528,11 @@
 		};
 		E28E07941DE7CBB700088369 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3B3B94E9F01497A13D3FB6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCV_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Demo";
@@ -437,9 +542,11 @@
 		};
 		E28E07951DE7CBB700088369 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87F3287C2C1DCF616907A4D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OpenCV_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TongxingPay.OpenCV-Demo";
@@ -516,6 +623,7 @@
 				E28E07951DE7CBB700088369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E28E07961DE7CBB700088369 /* Build configuration list for PBXNativeTarget "OpenCV_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +632,7 @@
 				E28E07981DE7CBB700088369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E28E07991DE7CBB700088369 /* Build configuration list for PBXNativeTarget "OpenCV_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +641,7 @@
 				E28E079B1DE7CBB700088369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
